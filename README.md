@@ -88,13 +88,14 @@ AI_Video_Detection_Project_Kaggle.ipynb  Variant that reads DFDC data from /kagg
 run_facecrop_pipeline_v2_tuned.py        Script that produced the final results (tuning + both models)
 run_facecrop_pipeline.py                 Previous run (2026-09-11_v1), without re-tuning
 predict.py                               Classify any video with a trained model
+checkpoints/                             Final trained weights (CNN+LSTM and baseline, ~45 MB each)
 sort_dfdc_sample.py                      Sorts the DFDC sample set into data/real and data/fake
 analysis/<date>_vN/                      Metrics, plots, reports and logs for each training run
 presentation_script.md                   Script for the project video presentation
 requirements.txt                         Python dependencies
 ```
 
-Not tracked by git: `data/`, `checkpoints/`, `face_detector_model/`, and the virtual environment.
+Not tracked by git: `data/`, intermediate checkpoints, `face_detector_model/`, and the virtual environment.
 
 ## Setup
 
@@ -113,7 +114,7 @@ The YuNet face detector (`face_detection_yunet_2023mar.onnx`, from the OpenCV mo
 
 ## Usage
 
-**Predict on a single video.** This needs the trained weights in `checkpoints/`. Download `lstm_best_2026-09-11_v2.pt` and `baseline_best_2026-09-11_v2.pt` from the Releases page, or train them yourself.
+**Predict on a single video.** The final trained weights are included in `checkpoints/`, so this works right after cloning.
 
 ```bash
 python predict.py path/to/video.mp4                   # CNN + LSTM (default)
@@ -141,3 +142,7 @@ This took about 2.75 hours on the development machine. The training script expec
 - Small dataset by deepfake-detection standards, drawn from two sources with mostly static talking-head clips.
 - Face detection runs once per clip, so fast head motion or multiple faces may be cropped poorly.
 - No cross-dataset evaluation yet, so generalization to other generators (for example Celeb-DF or diffusion-based video) is untested.
+
+## License
+
+Released under the [MIT License](LICENSE).

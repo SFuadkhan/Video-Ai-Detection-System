@@ -147,9 +147,9 @@ def main():
 
     if not os.path.exists(checkpoint_path):
         sys.exit(f"Checkpoint not found: {checkpoint_path}\n"
-                 "Model weights are not stored in the repository. Download them from the "
-                 "GitHub Releases page into checkpoints/, or retrain with "
-                 "run_facecrop_pipeline_v2_tuned.py (see README.md).")
+                 "The final weights ship with the repository in checkpoints/. Re-clone or "
+                 "restore that folder, or retrain with run_facecrop_pipeline_v2_tuned.py "
+                 "(see README.md).")
     model.load_state_dict(torch.load(checkpoint_path, map_location=DEVICE))
     model.to(DEVICE)
     model.eval()
