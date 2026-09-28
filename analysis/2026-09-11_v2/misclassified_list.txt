@@ -1,0 +1,21 @@
+CNN+LSTM misclassified 20 / 208 test clips.
+- djxdyjopjd.mp4 | true=real pred=fake prob_fake=0.905
+- axntxmycwd.mp4 | true=real pred=fake prob_fake=0.911
+- ciyoudyhly.mp4 | true=real pred=fake prob_fake=0.705
+- dfd_08__walking_outside_cafe_disgusted.mp4 | true=real pred=fake prob_fake=0.570
+- afoovlsmtx.mp4 | true=real pred=fake prob_fake=0.547
+- dfd_25__walk_down_hall_angry.mp4 | true=real pred=fake prob_fake=0.725
+- bgvhtpzknn.mp4 | true=real pred=fake prob_fake=0.669
+- dfd_03__meeting_serious.mp4 | true=real pred=fake prob_fake=0.736
+- dhxctgyoqj.mp4 | true=real pred=fake prob_fake=0.513
+- dfd_27_03__walking_and_outside_surprised__KWGI1LSZ.mp4 | true=fake pred=real prob_fake=0.010
+- dfd_21_25__hugging_happy__2R46UX3R.mp4 | true=fake pred=real prob_fake=0.170
+- atxvxouljq.mp4 | true=fake pred=real prob_fake=0.360
+- apatcsqejh.mp4 | true=fake pred=real prob_fake=0.045
+- dfd_06_18__exit_phone_room__H9445M6R.mp4 | true=fake pred=real prob_fake=0.316
+- dfd_07_04__hugging_happy__ITC0C48B.mp4 | true=fake pred=real prob_fake=0.014
+- dfd_26_04__secret_conversation__WX836VLY.mp4 | true=fake pred=real prob_fake=0.482
+- dfd_26_18__walking_down_street_outside_angry__UMEX6HWU.mp4 | true=fake pred=real prob_fake=0.490
+- dfd_27_13__walking_and_outside_surprised__A1OSUJE9.mp4 | true=fake pred=real prob_fake=0.007
+- dfd_26_04__exit_phone_room__MS2MLJP1.mp4 | true=fake pred=real prob_fake=0.483
+- cferslmfwh.mp4 | true=fake pred=real prob_fake=0.034

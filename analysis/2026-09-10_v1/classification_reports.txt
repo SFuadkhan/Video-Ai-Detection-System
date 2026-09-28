@@ -1,0 +1,19 @@
+=== CNN Baseline - classification report ===
+              precision    recall  f1-score   support
+
+        real       0.43      0.65      0.51        66
+        fake       0.79      0.59      0.67       142
+
+    accuracy                           0.61       208
+   macro avg       0.61      0.62      0.59       208
+weighted avg       0.67      0.61      0.62       208
+
+=== CNN + LSTM - classification report ===
+              precision    recall  f1-score   support
+
+        real       0.42      0.67      0.52        66
+        fake       0.79      0.58      0.67       142
+
+    accuracy                           0.61       208
+   macro avg       0.61      0.62      0.59       208
+weighted avg       0.67      0.61      0.62       208

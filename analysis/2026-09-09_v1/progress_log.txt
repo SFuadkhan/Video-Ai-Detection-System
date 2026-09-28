@@ -1,0 +1,28 @@
+00:32:54 === FULL ANALYSIS RUN v2 (weighted sampler + pos_weight) STARTED ===
+00:32:54 Executing 24 cells...
+00:33:18 cell 0 (68a7ad1b) done in 21.7s
+00:33:18 cell 1 (6a902a30) done in 0.0s
+00:33:18 cell 2 ([insert-2]) done in 0.0s
+00:33:18 cell 3 (1475e214) done in 0.0s
+00:33:18 cell 4 (0ffe2379) done in 0.0s
+00:33:18 cell 5 (8669d64e) done in 0.0s
+00:33:18 cell 6 (499034ed) done in 0.0s
+00:33:18 cell 7 (a2726616) done in 0.0s
+00:33:18 cell 8 (fa978b4f) done in 0.0s
+00:33:18 cell 9 (8781a313) done in 0.0s
+01:30:58 cell 10 (bee1edfc) done in 3459.4s
+02:16:42 cell 11 (2c7870e5) done in 2744.9s
+02:46:29 cell 12 (34528a4e) done in 1786.9s
+02:46:29 cell 13 (b10a1601) done in 0.0s
+02:49:03 cell 14 (e72afd03) done in 153.7s
+02:49:03 cell 15 (e869677b) done in 0.0s
+02:49:03 cell 16 (1f430d3f) done in 0.3s
+02:49:04 cell 17 ([insert-17]) done in 0.2s
+02:49:04 cell 18 (fe6097a4) done in 0.4s
+02:49:04 cell 19 ([insert-19]) done in 0.3s
+02:49:04 cell 20 (2cd6777a) done in 0.0s
+02:49:06 cell 21 (11a0aa84) done in 1.5s
+02:49:06 cell 22 ([insert-22]) done in 0.3s
+02:49:06 cell 23 ([insert-23]) done in 0.1s
+02:49:09 === FULL ANALYSIS RUN v2 SUCCESS in 8175.3s ===
+02:49:09 Saved executed notebook to C:\Users\User\Desktop\final project deeplearning\analysis\2026-09-09_v1\executed_notebook.ipynb

@@ -1,0 +1,52 @@
+{
+  "config": {
+    "NUM_FRAMES": 8,
+    "IMG_SIZE": 224,
+    "BATCH_SIZE": 4,
+    "EPOCHS_BASELINE": 8,
+    "EPOCHS_LSTM": 8,
+    "TUNE_EPOCHS": 2,
+    "DROPOUT_P": 0.3,
+    "VAL_SPLIT": 0.15,
+    "TEST_SPLIT": 0.15,
+    "SEED": 42,
+    "best_lstm_cfg": {
+      "hidden_size": 256,
+      "lr": 0.0001
+    }
+  },
+  "data_counts": {
+    "real_total": 77,
+    "fake_total": 323,
+    "train": {
+      "real": 55,
+      "fake": 227
+    },
+    "val": {
+      "real": 11,
+      "fake": 48
+    },
+    "test": {
+      "real": 11,
+      "fake": 48
+    }
+  },
+  "baseline_metrics": {
+    "model": "CNN Baseline",
+    "accuracy": 0.7966101694915254,
+    "precision": 0.8214285714285714,
+    "recall": 0.9583333333333334,
+    "f1": 0.8846153846153846,
+    "roc_auc": 0.4943181818181819
+  },
+  "lstm_metrics": {
+    "model": "CNN + LSTM",
+    "accuracy": 0.7796610169491526,
+    "precision": 0.8181818181818182,
+    "recall": 0.9375,
+    "f1": 0.8737864077669902,
+    "roc_auc": 0.4659090909090909
+  },
+  "misclassified_count_lstm": 13,
+  "test_set_size": 59
+}

@@ -1,0 +1,162 @@
+19:47:56 === FULL ANALYSIS RUN STARTED ===
+19:47:56 Executing 24 cells...
+19:48:06 cell 0 (68a7ad1b) done in 7.8s
+19:48:06 cell 1 (6a902a30) done in 0.0s
+19:48:06 cell 2 ([insert-2]) done in 0.0s
+19:48:06 cell 3 (1475e214) done in 0.0s
+19:48:06 cell 4 (0ffe2379) done in 0.0s
+19:48:06 cell 5 (8669d64e) done in 0.0s
+19:48:06 cell 6 (499034ed) done in 0.0s
+19:48:06 cell 7 (a2726616) done in 0.0s
+19:48:06 cell 8 (fa978b4f) done in 0.0s
+19:48:06 cell 9 (8781a313) done in 0.0s
+20:38:45 cell 10 (bee1edfc) done in 3039.5s
+21:17:43 cell 11 (2c7870e5) done in 2337.7s
+21:43:25 cell 12 (34528a4e) done in 1541.6s
+21:43:25 cell 13 (b10a1601) done in 0.0s
+21:46:15 cell 14 (e72afd03) done in 170.1s
+21:46:15 cell 15 (e869677b) done in 0.0s
+21:46:15 cell 16 (1f430d3f) done in 0.4s
+21:46:15 cell 17 ([insert-17]) done in 0.1s
+21:46:16 cell 18 (fe6097a4) done in 0.3s
+21:46:16 cell 19 ([insert-19]) done in 0.3s
+21:46:16 cell 20 (2cd6777a) done in 0.0s
+21:46:18 cell 21 (11a0aa84) done in 1.6s
+21:46:18 cell 22 ([insert-22]) done in 0.3s
+21:46:21 ERROR: FAILED: CellExecutionError: An error occurred while executing the following cell:
+------------------
+import json as _json
+summary = {
+    'config': {
+        'NUM_FRAMES': NUM_FRAMES, 'IMG_SIZE': IMG_SIZE, 'BATCH_SIZE': BATCH_SIZE,
+        'EPOCHS_BASELINE': EPOCHS_BASELINE, 'EPOCHS_LSTM': EPOCHS_LSTM, 'TUNE_EPOCHS': TUNE_EPOCHS,
+        'DROPOUT_P': DROPOUT_P, 'VAL_SPLIT': VAL_SPLIT, 'TEST_SPLIT': TEST_SPLIT, 'SEED': SEED,
+    },
+    'data_counts': {
+        'real_total': len(real_videos), 'fake_total': len(fake_videos),
+        'train': {'real': train_labels.count(0), 'fake': train_labels.count(1)},
+        'val': {'real': val_labels.count(0), 'fake': val_labels.count(1)},
+        'test': {'real': test_labels.count(0), 'fake': test_labels.count(1)},
+    },
+    'tuning_results': tuning_results,
+    'best_cfg': best_cfg,
+    'baseline_history': baseline_history,
+    'lstm_history': lstm_history,
+    'baseline_metrics': baseline_metrics,
+    'lstm_metrics': lstm_metrics,
+    'baseline_epochs_run': len(baseline_history['train_loss']),
+    'lstm_epochs_run': len(lstm_history['train_loss']),
+    'misclassified_count_lstm': int(len(misclassified_idx)),
+    'test_set_size': int(len(test_labels_lstm)),
+}
+with open(_os.path.join(RESULTS_DIR, 'metrics_summary.json'), 'w', encoding='utf-8') as f:
+    _json.dump(summary, f, indent=2)
+
+with open(_os.path.join(RESULTS_DIR, 'classification_reports.txt'), 'w', encoding='utf-8') as f:
+    f.write('=== CNN Baseline - classification report ===\n')
+    f.write(classification_report(test_labels, baseline_preds, target_names=['real', 'fake']))
+    f.write('\n=== CNN + LSTM - classification report ===\n')
+    f.write(classification_report(test_labels_lstm, lstm_preds, target_names=['real', 'fake']))
+
+with open(_os.path.join(RESULTS_DIR, 'misclassified_list.txt'), 'w', encoding='utf-8') as f:
+    f.write(f'CNN+LSTM misclassified {len(misclassified_idx)} / {len(test_labels_lstm)} test clips.\n\n')
+    for i in misclassified_idx:
+        true_label = 'fake' if test_labels_lstm[i] == 1 else 'real'
+        pred_label = 'fake' if lstm_preds[i] == 1 else 'real'
+        f.write(f'{os.path.basename(test_paths[i])} | true={true_label} pred={pred_label} prob_fake={lstm_probs[i]:.3f}\n')
+
+import shutil as _shutil
+for ckpt_name in ['baseline_best.pt', 'lstm_best.pt']:
+    src_ckpt = _os.path.join(CHECKPOINT_DIR, ckpt_name)
+    if _os.path.exists(src_ckpt):
+        _shutil.copy2(src_ckpt, _os.path.join(RESULTS_DIR, ckpt_name))
+
+print('Saved metrics_summary.json, classification_reports.txt, misclassified_list.txt, checkpoints')
+print('DONE')
+
+------------------
+
+
+[31m---------------------------------------------------------------------------[39m
+[31mAttributeError[39m                            Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[24][39m[32m, line 12[39m
+[32m      8[39m     'data_counts': {
+[32m      9[39m         [33m'real_total'[39m: len(real_videos), [33m'fake_total'[39m: len(fake_videos),
+[32m     10[39m         [33m'train'[39m: {[33m'real'[39m: train_labels.count([32m0[39m), [33m'fake'[39m: train_labels.count([32m1[39m)},
+[32m     11[39m         [33m'val'[39m: {[33m'real'[39m: val_labels.count([32m0[39m), [33m'fake'[39m: val_labels.count([32m1[39m)},
+[32m---> [39m[32m12[39m         [33m'test'[39m: {[33m'real'[39m: test_labels.count([32m0[39m), [33m'fake'[39m: test_labels.count([32m1[39m)},
+[32m     13[39m     },
+[32m     14[39m     [33m'tuning_results'[39m: tuning_results,
+[32m     15[39m     [33m'best_cfg'[39m: best_cfg,
+
+[31mAttributeError[39m: 'numpy.ndarray' object has no attribute 'count'
+
+21:46:21 === FULL ANALYSIS RUN FAILED: CellExecutionError: An error occurred while executing the following cell:
+------------------
+import json as _json
+summary = {
+    'config': {
+        'NUM_FRAMES': NUM_FRAMES, 'IMG_SIZE': IMG_SIZE, 'BATCH_SIZE': BATCH_SIZE,
+        'EPOCHS_BASELINE': EPOCHS_BASELINE, 'EPOCHS_LSTM': EPOCHS_LSTM, 'TUNE_EPOCHS': TUNE_EPOCHS,
+        'DROPOUT_P': DROPOUT_P, 'VAL_SPLIT': VAL_SPLIT, 'TEST_SPLIT': TEST_SPLIT, 'SEED': SEED,
+    },
+    'data_counts': {
+        'real_total': len(real_videos), 'fake_total': len(fake_videos),
+        'train': {'real': train_labels.count(0), 'fake': train_labels.count(1)},
+        'val': {'real': val_labels.count(0), 'fake': val_labels.count(1)},
+        'test': {'real': test_labels.count(0), 'fake': test_labels.count(1)},
+    },
+    'tuning_results': tuning_results,
+    'best_cfg': best_cfg,
+    'baseline_history': baseline_history,
+    'lstm_history': lstm_history,
+    'baseline_metrics': baseline_metrics,
+    'lstm_metrics': lstm_metrics,
+    'baseline_epochs_run': len(baseline_history['train_loss']),
+    'lstm_epochs_run': len(lstm_history['train_loss']),
+    'misclassified_count_lstm': int(len(misclassified_idx)),
+    'test_set_size': int(len(test_labels_lstm)),
+}
+with open(_os.path.join(RESULTS_DIR, 'metrics_summary.json'), 'w', encoding='utf-8') as f:
+    _json.dump(summary, f, indent=2)
+
+with open(_os.path.join(RESULTS_DIR, 'classification_reports.txt'), 'w', encoding='utf-8') as f:
+    f.write('=== CNN Baseline - classification report ===\n')
+    f.write(classification_report(test_labels, baseline_preds, target_names=['real', 'fake']))
+    f.write('\n=== CNN + LSTM - classification report ===\n')
+    f.write(classification_report(test_labels_lstm, lstm_preds, target_names=['real', 'fake']))
+
+with open(_os.path.join(RESULTS_DIR, 'misclassified_list.txt'), 'w', encoding='utf-8') as f:
+    f.write(f'CNN+LSTM misclassified {len(misclassified_idx)} / {len(test_labels_lstm)} test clips.\n\n')
+    for i in misclassified_idx:
+        true_label = 'fake' if test_labels_lstm[i] == 1 else 'real'
+        pred_label = 'fake' if lstm_preds[i] == 1 else 'real'
+        f.write(f'{os.path.basename(test_paths[i])} | true={true_label} pred={pred_label} prob_fake={lstm_probs[i]:.3f}\n')
+
+import shutil as _shutil
+for ckpt_name in ['baseline_best.pt', 'lstm_best.pt']:
+    src_ckpt = _os.path.join(CHECKPOINT_DIR, ckpt_name)
+    if _os.path.exists(src_ckpt):
+        _shutil.copy2(src_ckpt, _os.path.join(RESULTS_DIR, ckpt_name))
+
+print('Saved metrics_summary.json, classification_reports.txt, misclassified_list.txt, checkpoints')
+print('DONE')
+
+------------------
+
+
+[31m---------------------------------------------------------------------------[39m
+[31mAttributeError[39m                            Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[24][39m[32m, line 12[39m
+[32m      8[39m     'data_counts': {
+[32m      9[39m         [33m'real_total'[39m: len(real_videos), [33m'fake_total'[39m: len(fake_videos),
+[32m     10[39m         [33m'train'[39m: {[33m'real'[39m: train_labels.count([32m0[39m), [33m'fake'[39m: train_labels.count([32m1[39m)},
+[32m     11[39m         [33m'val'[39m: {[33m'real'[39m: val_labels.count([32m0[39m), [33m'fake'[39m: val_labels.count([32m1[39m)},
+[32m---> [39m[32m12[39m         [33m'test'[39m: {[33m'real'[39m: test_labels.count([32m0[39m), [33m'fake'[39m: test_labels.count([32m1[39m)},
+[32m     13[39m     },
+[32m     14[39m     [33m'tuning_results'[39m: tuning_results,
+[32m     15[39m     [33m'best_cfg'[39m: best_cfg,
+
+[31mAttributeError[39m: 'numpy.ndarray' object has no attribute 'count'
+ in 7104.7s ===
+21:46:21 Saved executed notebook to C:\Users\User\Desktop\final project deeplearning\analysis\2026-09-08_v1\executed_notebook.ipynb

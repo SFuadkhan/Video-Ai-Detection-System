@@ -1,0 +1,707 @@
+[00:41:34] Using device: cuda
+[00:41:34] Hard deadline: 05:20:00 (4.64 hours from now)
+[00:41:34] Real videos: 440 | Fake videos: 950
+[00:41:34] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:41:34] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:41:34] === Training CNN baseline (face-cropped pipeline) ===
+[00:41:42] Using device: cuda
+[00:41:42] Hard deadline: 05:20:00 (4.64 hours from now)
+[00:41:42] Using device: cuda
+[00:41:42] Hard deadline: 05:20:00 (4.64 hours from now)
+[00:41:42] Real videos: 440 | Fake videos: 950
+[00:41:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:41:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:41:42] Real videos: 440 | Fake videos: 950
+[00:41:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:41:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:41:42] Using device: cuda
+[00:41:42] Hard deadline: 05:20:00 (4.64 hours from now)
+[00:41:42] Real videos: 440 | Fake videos: 950
+[00:41:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:41:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:41:42] Using device: cuda
+[00:41:42] Hard deadline: 05:20:00 (4.64 hours from now)
+[00:41:42] Real videos: 440 | Fake videos: 950
+[00:41:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:41:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:47:39] Using device: cuda
+[00:47:39] Hard deadline: 05:20:00 (4.54 hours from now)
+[00:47:39] Real videos: 440 | Fake videos: 950
+[00:47:39] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:47:39] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:47:39] Using device: cuda
+[00:47:39] Hard deadline: 05:20:00 (4.54 hours from now)
+[00:47:39] Real videos: 440 | Fake videos: 950
+[00:47:39] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:47:39] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:47:39] Using device: cuda
+[00:47:39] Hard deadline: 05:20:00 (4.54 hours from now)
+[00:47:39] Real videos: 440 | Fake videos: 950
+[00:47:39] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:47:39] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:47:39] Using device: cuda
+[00:47:39] Hard deadline: 05:20:00 (4.54 hours from now)
+[00:47:39] Real videos: 440 | Fake videos: 950
+[00:47:39] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:47:39] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:48:51] [baseline] Epoch 1/8 | train_loss=0.3645 train_acc=0.6920 | val_loss=0.7813 val_acc=0.6635 | 436.2s
+[00:48:58] Using device: cuda
+[00:48:58] Hard deadline: 05:20:00 (4.52 hours from now)
+[00:48:58] Real videos: 440 | Fake videos: 950
+[00:48:58] Using device: cuda
+[00:48:58] Hard deadline: 05:20:00 (4.52 hours from now)
+[00:48:58] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:48:58] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:48:58] Real videos: 440 | Fake videos: 950
+[00:48:58] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:48:58] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:48:58] Using device: cuda
+[00:48:58] Hard deadline: 05:20:00 (4.52 hours from now)
+[00:48:58] Real videos: 440 | Fake videos: 950
+[00:48:58] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:48:58] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:48:59] Using device: cuda
+[00:48:59] Hard deadline: 05:20:00 (4.52 hours from now)
+[00:48:59] Real videos: 440 | Fake videos: 950
+[00:48:59] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:48:59] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:55:00] Using device: cuda
+[00:55:00] Hard deadline: 05:20:00 (4.42 hours from now)
+[00:55:00] Using device: cuda
+[00:55:00] Hard deadline: 05:20:00 (4.42 hours from now)
+[00:55:00] Real videos: 440 | Fake videos: 950
+[00:55:00] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:55:00] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:55:00] Real videos: 440 | Fake videos: 950
+[00:55:00] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:55:00] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:55:00] Using device: cuda
+[00:55:00] Hard deadline: 05:20:00 (4.42 hours from now)
+[00:55:00] Real videos: 440 | Fake videos: 950
+[00:55:00] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:55:00] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:55:01] Using device: cuda
+[00:55:01] Hard deadline: 05:20:00 (4.42 hours from now)
+[00:55:01] Real videos: 440 | Fake videos: 950
+[00:55:01] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:55:01] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:56:12] [baseline] Epoch 2/8 | train_loss=0.2685 train_acc=0.8008 | val_loss=0.4789 val_acc=0.7933 | 441.1s
+[00:56:19] Using device: cuda
+[00:56:19] Hard deadline: 05:20:00 (4.39 hours from now)
+[00:56:19] Using device: cuda
+[00:56:19] Hard deadline: 05:20:00 (4.39 hours from now)
+[00:56:19] Real videos: 440 | Fake videos: 950
+[00:56:19] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:56:19] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:56:19] Real videos: 440 | Fake videos: 950
+[00:56:19] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:56:19] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:56:19] Using device: cuda
+[00:56:19] Hard deadline: 05:20:00 (4.39 hours from now)
+[00:56:19] Real videos: 440 | Fake videos: 950
+[00:56:19] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:56:19] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[00:56:20] Using device: cuda
+[00:56:20] Hard deadline: 05:20:00 (4.39 hours from now)
+[00:56:20] Real videos: 440 | Fake videos: 950
+[00:56:20] Train videos: 974 | Val videos: 208 | Test videos: 208
+[00:56:20] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:02:14] Using device: cuda
+[01:02:14] Hard deadline: 05:20:00 (4.30 hours from now)
+[01:02:14] Real videos: 440 | Fake videos: 950
+[01:02:14] Using device: cuda
+[01:02:14] Hard deadline: 05:20:00 (4.30 hours from now)
+[01:02:14] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:02:14] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:02:14] Real videos: 440 | Fake videos: 950
+[01:02:14] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:02:14] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:02:14] Using device: cuda
+[01:02:14] Hard deadline: 05:20:00 (4.30 hours from now)
+[01:02:14] Real videos: 440 | Fake videos: 950
+[01:02:14] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:02:14] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:02:14] Using device: cuda
+[01:02:14] Hard deadline: 05:20:00 (4.30 hours from now)
+[01:02:14] Real videos: 440 | Fake videos: 950
+[01:02:14] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:02:14] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:03:26] [baseline] Epoch 3/8 | train_loss=0.2509 train_acc=0.8337 | val_loss=0.3223 val_acc=0.8702 | 433.7s
+[01:03:33] Using device: cuda
+[01:03:33] Hard deadline: 05:20:00 (4.27 hours from now)
+[01:03:33] Real videos: 440 | Fake videos: 950
+[01:03:33] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:03:33] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:03:33] Using device: cuda
+[01:03:33] Hard deadline: 05:20:00 (4.27 hours from now)
+[01:03:33] Real videos: 440 | Fake videos: 950
+[01:03:33] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:03:33] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:03:33] Using device: cuda
+[01:03:33] Hard deadline: 05:20:00 (4.27 hours from now)
+[01:03:33] Real videos: 440 | Fake videos: 950
+[01:03:33] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:03:33] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:03:33] Using device: cuda
+[01:03:33] Hard deadline: 05:20:00 (4.27 hours from now)
+[01:03:34] Real videos: 440 | Fake videos: 950
+[01:03:34] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:03:34] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:09:22] Using device: cuda
+[01:09:22] Hard deadline: 05:20:00 (4.18 hours from now)
+[01:09:22] Real videos: 440 | Fake videos: 950
+[01:09:22] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:09:22] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:09:22] Using device: cuda
+[01:09:22] Hard deadline: 05:20:00 (4.18 hours from now)
+[01:09:22] Real videos: 440 | Fake videos: 950
+[01:09:22] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:09:22] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:09:22] Using device: cuda
+[01:09:22] Hard deadline: 05:20:00 (4.18 hours from now)
+[01:09:22] Real videos: 440 | Fake videos: 950
+[01:09:22] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:09:22] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:09:23] Using device: cuda
+[01:09:23] Hard deadline: 05:20:00 (4.18 hours from now)
+[01:09:23] Real videos: 440 | Fake videos: 950
+[01:09:23] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:09:23] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:10:34] [baseline] Epoch 4/8 | train_loss=0.2056 train_acc=0.8706 | val_loss=0.3375 val_acc=0.8702 | 428.4s
+[01:10:41] Using device: cuda
+[01:10:41] Hard deadline: 05:20:00 (4.16 hours from now)
+[01:10:41] Real videos: 440 | Fake videos: 950
+[01:10:41] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:10:41] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:10:42] Using device: cuda
+[01:10:42] Hard deadline: 05:20:00 (4.15 hours from now)
+[01:10:42] Real videos: 440 | Fake videos: 950
+[01:10:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:10:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:10:42] Using device: cuda
+[01:10:42] Hard deadline: 05:20:00 (4.15 hours from now)
+[01:10:42] Real videos: 440 | Fake videos: 950
+[01:10:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:10:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:10:42] Using device: cuda
+[01:10:42] Hard deadline: 05:20:00 (4.15 hours from now)
+[01:10:42] Real videos: 440 | Fake videos: 950
+[01:10:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:10:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:16:37] Using device: cuda
+[01:16:37] Hard deadline: 05:20:00 (4.06 hours from now)
+[01:16:37] Real videos: 440 | Fake videos: 950
+[01:16:37] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:16:37] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:16:37] Using device: cuda
+[01:16:37] Hard deadline: 05:20:00 (4.06 hours from now)
+[01:16:37] Real videos: 440 | Fake videos: 950
+[01:16:37] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:16:37] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:16:37] Using device: cuda
+[01:16:37] Hard deadline: 05:20:00 (4.06 hours from now)
+[01:16:37] Real videos: 440 | Fake videos: 950
+[01:16:37] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:16:37] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:16:38] Using device: cuda
+[01:16:38] Hard deadline: 05:20:00 (4.06 hours from now)
+[01:16:38] Real videos: 440 | Fake videos: 950
+[01:16:38] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:16:38] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:17:49] [baseline] Epoch 5/8 | train_loss=0.1625 train_acc=0.9127 | val_loss=0.1904 val_acc=0.9135 | 435.0s
+[01:17:56] Using device: cuda
+[01:17:56] Hard deadline: 05:20:00 (4.03 hours from now)
+[01:17:56] Real videos: 440 | Fake videos: 950
+[01:17:56] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:17:56] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:17:56] Using device: cuda
+[01:17:56] Hard deadline: 05:20:00 (4.03 hours from now)
+[01:17:56] Real videos: 440 | Fake videos: 950
+[01:17:56] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:17:56] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:17:57] Using device: cuda
+[01:17:57] Hard deadline: 05:20:00 (4.03 hours from now)
+[01:17:57] Real videos: 440 | Fake videos: 950
+[01:17:57] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:17:57] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:17:57] Using device: cuda
+[01:17:57] Hard deadline: 05:20:00 (4.03 hours from now)
+[01:17:57] Real videos: 440 | Fake videos: 950
+[01:17:57] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:17:57] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:23:48] Using device: cuda
+[01:23:48] Hard deadline: 05:20:00 (3.94 hours from now)
+[01:23:48] Real videos: 440 | Fake videos: 950
+[01:23:48] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:23:48] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:23:48] Using device: cuda
+[01:23:48] Hard deadline: 05:20:00 (3.94 hours from now)
+[01:23:48] Real videos: 440 | Fake videos: 950
+[01:23:48] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:23:48] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:23:48] Using device: cuda
+[01:23:48] Hard deadline: 05:20:00 (3.94 hours from now)
+[01:23:48] Real videos: 440 | Fake videos: 950
+[01:23:48] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:23:48] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:23:48] Using device: cuda
+[01:23:48] Hard deadline: 05:20:00 (3.94 hours from now)
+[01:23:48] Real videos: 440 | Fake videos: 950
+[01:23:48] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:23:48] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:25:00] [baseline] Epoch 6/8 | train_loss=0.1229 train_acc=0.9240 | val_loss=0.3575 val_acc=0.8558 | 430.8s
+[01:25:07] Using device: cuda
+[01:25:07] Using device: cuda
+[01:25:07] Hard deadline: 05:20:00 (3.91 hours from now)
+[01:25:07] Real videos: 440 | Fake videos: 950
+[01:25:07] Real videos: 440 | Fake videos: 950
+[01:25:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:25:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:25:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:25:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:25:08] Using device: cuda
+[01:25:08] Hard deadline: 05:20:00 (3.91 hours from now)
+[01:25:08] Real videos: 440 | Fake videos: 950
+[01:25:08] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:25:08] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:25:08] Using device: cuda
+[01:25:08] Hard deadline: 05:20:00 (3.91 hours from now)
+[01:25:08] Real videos: 440 | Fake videos: 950
+[01:25:08] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:25:08] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:31:02] Using device: cuda
+[01:31:02] Hard deadline: 05:20:00 (3.82 hours from now)
+[01:31:02] Using device: cuda
+[01:31:02] Hard deadline: 05:20:00 (3.82 hours from now)
+[01:31:02] Real videos: 440 | Fake videos: 950
+[01:31:02] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:31:02] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:31:02] Real videos: 440 | Fake videos: 950
+[01:31:02] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:31:02] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:31:02] Using device: cuda
+[01:31:02] Hard deadline: 05:20:00 (3.82 hours from now)
+[01:31:02] Real videos: 440 | Fake videos: 950
+[01:31:02] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:31:02] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:31:02] Using device: cuda
+[01:31:02] Hard deadline: 05:20:00 (3.82 hours from now)
+[01:31:02] Real videos: 440 | Fake videos: 950
+[01:31:02] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:31:02] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:32:13] [baseline] Epoch 7/8 | train_loss=0.1539 train_acc=0.9107 | val_loss=0.2842 val_acc=0.8942 | 433.3s
+[01:32:21] Using device: cuda
+[01:32:21] Using device: cuda
+[01:32:21] Hard deadline: 05:20:00 (3.79 hours from now)
+[01:32:21] Real videos: 440 | Fake videos: 950
+[01:32:21] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:32:21] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:32:21] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:32:21] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:32:21] Using device: cuda
+[01:32:21] Hard deadline: 05:20:00 (3.79 hours from now)
+[01:32:21] Real videos: 440 | Fake videos: 950
+[01:32:21] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:32:21] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:32:21] Using device: cuda
+[01:32:21] Hard deadline: 05:20:00 (3.79 hours from now)
+[01:32:21] Real videos: 440 | Fake videos: 950
+[01:32:21] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:32:21] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:38:15] Using device: cuda
+[01:38:15] Hard deadline: 05:20:00 (3.70 hours from now)
+[01:38:15] Real videos: 440 | Fake videos: 950
+[01:38:15] Using device: cuda
+[01:38:15] Hard deadline: 05:20:00 (3.70 hours from now)
+[01:38:15] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:38:15] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:38:15] Real videos: 440 | Fake videos: 950
+[01:38:15] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:38:15] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:38:16] Using device: cuda
+[01:38:16] Hard deadline: 05:20:00 (3.70 hours from now)
+[01:38:16] Real videos: 440 | Fake videos: 950
+[01:38:16] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:38:16] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:38:16] Using device: cuda
+[01:38:16] Hard deadline: 05:20:00 (3.70 hours from now)
+[01:38:16] Real videos: 440 | Fake videos: 950
+[01:38:16] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:38:16] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:39:27] [baseline] Epoch 8/8 | train_loss=0.1049 train_acc=0.9456 | val_loss=0.2399 val_acc=0.8894 | 434.0s
+[01:39:27] [baseline] Early stopping at epoch 8 (no val improvement for 3 epochs).
+[01:39:27] [baseline] Best checkpoint: epoch 5
+[01:39:27] === Training CNN+LSTM (face-cropped pipeline, reusing best_cfg={'hidden_size': 128, 'lr': 0.0001}) ===
+[01:39:35] Using device: cuda
+[01:39:35] Hard deadline: 05:20:00 (3.67 hours from now)
+[01:39:35] Real videos: 440 | Fake videos: 950
+[01:39:35] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:39:35] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:39:35] Using device: cuda
+[01:39:35] Hard deadline: 05:20:00 (3.67 hours from now)
+[01:39:35] Using device: cuda
+[01:39:35] Hard deadline: 05:20:00 (3.67 hours from now)
+[01:39:35] Real videos: 440 | Fake videos: 950
+[01:39:35] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:39:35] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:39:35] Real videos: 440 | Fake videos: 950
+[01:39:35] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:39:35] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:39:35] Using device: cuda
+[01:39:35] Hard deadline: 05:20:00 (3.67 hours from now)
+[01:39:35] Real videos: 440 | Fake videos: 950
+[01:39:35] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:39:35] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:45:30] Using device: cuda
+[01:45:30] Hard deadline: 05:20:00 (3.57 hours from now)
+[01:45:30] Using device: cuda
+[01:45:30] Hard deadline: 05:20:00 (3.57 hours from now)
+[01:45:30] Real videos: 440 | Fake videos: 950
+[01:45:30] Real videos: 440 | Fake videos: 950
+[01:45:30] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:45:30] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:45:30] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:45:30] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:45:30] Using device: cuda
+[01:45:30] Hard deadline: 05:20:00 (3.57 hours from now)
+[01:45:30] Real videos: 440 | Fake videos: 950
+[01:45:30] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:45:30] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:45:30] Using device: cuda
+[01:45:30] Hard deadline: 05:20:00 (3.57 hours from now)
+[01:45:30] Real videos: 440 | Fake videos: 950
+[01:45:30] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:45:30] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:46:42] [lstm] Epoch 1/8 | train_loss=0.3991 train_acc=0.6160 | val_loss=0.5709 val_acc=0.7260 | 434.3s
+[01:46:49] Using device: cuda
+[01:46:49] Hard deadline: 05:20:00 (3.55 hours from now)
+[01:46:49] Real videos: 440 | Fake videos: 950
+[01:46:49] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:46:49] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:46:49] Using device: cuda
+[01:46:49] Hard deadline: 05:20:00 (3.55 hours from now)
+[01:46:49] Real videos: 440 | Fake videos: 950
+[01:46:49] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:46:49] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:46:49] Using device: cuda
+[01:46:49] Hard deadline: 05:20:00 (3.55 hours from now)
+[01:46:50] Real videos: 440 | Fake videos: 950
+[01:46:50] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:46:50] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:46:50] Using device: cuda
+[01:46:50] Hard deadline: 05:20:00 (3.55 hours from now)
+[01:46:50] Real videos: 440 | Fake videos: 950
+[01:46:50] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:46:50] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:52:47] Using device: cuda
+[01:52:47] Hard deadline: 05:20:00 (3.45 hours from now)
+[01:52:47] Using device: cuda
+[01:52:47] Hard deadline: 05:20:00 (3.45 hours from now)
+[01:52:47] Using device: cuda
+[01:52:47] Hard deadline: 05:20:00 (3.45 hours from now)
+[01:52:47] Using device: cuda
+[01:52:47] Hard deadline: 05:20:00 (3.45 hours from now)
+[01:52:47] Real videos: 440 | Fake videos: 950
+[01:52:47] Real videos: 440 | Fake videos: 950
+[01:52:47] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:52:47] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:52:47] Real videos: 440 | Fake videos: 950
+[01:52:47] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:52:47] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:52:47] Real videos: 440 | Fake videos: 950
+[01:52:47] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:52:47] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:52:47] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:52:47] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:53:59] [lstm] Epoch 2/8 | train_loss=0.2938 train_acc=0.7926 | val_loss=0.5824 val_acc=0.7115 | 436.8s
+[01:54:06] Using device: cuda
+[01:54:06] Hard deadline: 05:20:00 (3.43 hours from now)
+[01:54:06] Using device: cuda
+[01:54:06] Hard deadline: 05:20:00 (3.43 hours from now)
+[01:54:06] Real videos: 440 | Fake videos: 950
+[01:54:06] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:54:06] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:54:06] Real videos: 440 | Fake videos: 950
+[01:54:06] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:54:06] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:54:06] Using device: cuda
+[01:54:06] Hard deadline: 05:20:00 (3.43 hours from now)
+[01:54:06] Real videos: 440 | Fake videos: 950
+[01:54:06] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:54:06] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[01:54:07] Using device: cuda
+[01:54:07] Hard deadline: 05:20:00 (3.43 hours from now)
+[01:54:07] Real videos: 440 | Fake videos: 950
+[01:54:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[01:54:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:00:06] Using device: cuda
+[02:00:06] Hard deadline: 05:20:00 (3.33 hours from now)
+[02:00:07] Real videos: 440 | Fake videos: 950
+[02:00:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:00:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:00:07] Using device: cuda
+[02:00:07] Hard deadline: 05:20:00 (3.33 hours from now)
+[02:00:07] Real videos: 440 | Fake videos: 950
+[02:00:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:00:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:00:07] Using device: cuda
+[02:00:07] Hard deadline: 05:20:00 (3.33 hours from now)
+[02:00:07] Real videos: 440 | Fake videos: 950
+[02:00:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:00:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:00:07] Using device: cuda
+[02:00:07] Hard deadline: 05:20:00 (3.33 hours from now)
+[02:00:07] Real videos: 440 | Fake videos: 950
+[02:00:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:00:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:01:19] [lstm] Epoch 3/8 | train_loss=0.2173 train_acc=0.8511 | val_loss=0.7433 val_acc=0.6490 | 439.8s
+[02:01:26] Using device: cuda
+[02:01:26] Hard deadline: 05:20:00 (3.31 hours from now)
+[02:01:26] Real videos: 440 | Fake videos: 950
+[02:01:26] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:01:26] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:01:26] Using device: cuda
+[02:01:26] Hard deadline: 05:20:00 (3.31 hours from now)
+[02:01:26] Real videos: 440 | Fake videos: 950
+[02:01:26] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:01:26] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:01:26] Using device: cuda
+[02:01:26] Hard deadline: 05:20:00 (3.31 hours from now)
+[02:01:26] Real videos: 440 | Fake videos: 950
+[02:01:26] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:01:26] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:01:27] Using device: cuda
+[02:01:27] Hard deadline: 05:20:00 (3.31 hours from now)
+[02:01:27] Real videos: 440 | Fake videos: 950
+[02:01:27] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:01:27] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:07:21] Using device: cuda
+[02:07:21] Hard deadline: 05:20:00 (3.21 hours from now)
+[02:07:21] Real videos: 440 | Fake videos: 950
+[02:07:21] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:07:21] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:07:21] Using device: cuda
+[02:07:21] Hard deadline: 05:20:00 (3.21 hours from now)
+[02:07:22] Real videos: 440 | Fake videos: 950
+[02:07:22] Using device: cuda
+[02:07:22] Hard deadline: 05:20:00 (3.21 hours from now)
+[02:07:22] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:07:22] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:07:22] Real videos: 440 | Fake videos: 950
+[02:07:22] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:07:22] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:07:22] Using device: cuda
+[02:07:22] Hard deadline: 05:20:00 (3.21 hours from now)
+[02:07:22] Real videos: 440 | Fake videos: 950
+[02:07:22] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:07:22] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:08:34] [lstm] Epoch 4/8 | train_loss=0.1877 train_acc=0.8799 | val_loss=0.4616 val_acc=0.7933 | 435.0s
+[02:08:41] Using device: cuda
+[02:08:41] Hard deadline: 05:20:00 (3.19 hours from now)
+[02:08:41] Real videos: 440 | Fake videos: 950
+[02:08:41] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:08:41] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:08:41] Using device: cuda
+[02:08:41] Hard deadline: 05:20:00 (3.19 hours from now)
+[02:08:41] Real videos: 440 | Fake videos: 950
+[02:08:41] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:08:41] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:08:41] Using device: cuda
+[02:08:41] Hard deadline: 05:20:00 (3.19 hours from now)
+[02:08:41] Real videos: 440 | Fake videos: 950
+[02:08:41] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:08:41] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:08:42] Using device: cuda
+[02:08:42] Hard deadline: 05:20:00 (3.19 hours from now)
+[02:08:42] Real videos: 440 | Fake videos: 950
+[02:08:42] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:08:42] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:14:33] Using device: cuda
+[02:14:33] Hard deadline: 05:20:00 (3.09 hours from now)
+[02:14:33] Real videos: 440 | Fake videos: 950
+[02:14:33] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:14:33] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:14:33] Using device: cuda
+[02:14:33] Hard deadline: 05:20:00 (3.09 hours from now)
+[02:14:33] Real videos: 440 | Fake videos: 950
+[02:14:33] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:14:33] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:14:33] Using device: cuda
+[02:14:33] Hard deadline: 05:20:00 (3.09 hours from now)
+[02:14:33] Real videos: 440 | Fake videos: 950
+[02:14:33] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:14:33] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:14:33] Using device: cuda
+[02:14:33] Hard deadline: 05:20:00 (3.09 hours from now)
+[02:14:33] Real videos: 440 | Fake videos: 950
+[02:14:33] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:14:33] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:15:44] [lstm] Epoch 5/8 | train_loss=0.1645 train_acc=0.9076 | val_loss=0.4359 val_acc=0.8029 | 430.5s
+[02:15:51] Using device: cuda
+[02:15:51] Hard deadline: 05:20:00 (3.07 hours from now)
+[02:15:52] Real videos: 440 | Fake videos: 950
+[02:15:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:15:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:15:52] Using device: cuda
+[02:15:52] Hard deadline: 05:20:00 (3.07 hours from now)
+[02:15:52] Real videos: 440 | Fake videos: 950
+[02:15:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:15:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:15:52] Using device: cuda
+[02:15:52] Hard deadline: 05:20:00 (3.07 hours from now)
+[02:15:52] Real videos: 440 | Fake videos: 950
+[02:15:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:15:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:15:52] Using device: cuda
+[02:15:52] Hard deadline: 05:20:00 (3.07 hours from now)
+[02:15:52] Real videos: 440 | Fake videos: 950
+[02:15:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:15:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:21:45] Using device: cuda
+[02:21:45] Hard deadline: 05:20:00 (2.97 hours from now)
+[02:21:45] Real videos: 440 | Fake videos: 950
+[02:21:45] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:21:45] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:21:45] Using device: cuda
+[02:21:45] Hard deadline: 05:20:00 (2.97 hours from now)
+[02:21:45] Real videos: 440 | Fake videos: 950
+[02:21:45] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:21:45] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:21:45] Using device: cuda
+[02:21:45] Hard deadline: 05:20:00 (2.97 hours from now)
+[02:21:45] Real videos: 440 | Fake videos: 950
+[02:21:45] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:21:45] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:21:45] Using device: cuda
+[02:21:45] Hard deadline: 05:20:00 (2.97 hours from now)
+[02:21:45] Real videos: 440 | Fake videos: 950
+[02:21:45] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:21:45] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:22:56] [lstm] Epoch 6/8 | train_loss=0.1393 train_acc=0.9209 | val_loss=0.3015 val_acc=0.8798 | 432.1s
+[02:23:04] Using device: cuda
+[02:23:04] Hard deadline: 05:20:00 (2.95 hours from now)
+[02:23:04] Real videos: 440 | Fake videos: 950
+[02:23:04] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:23:04] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:23:04] Using device: cuda
+[02:23:04] Hard deadline: 05:20:00 (2.95 hours from now)
+[02:23:04] Real videos: 440 | Fake videos: 950
+[02:23:04] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:23:04] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:23:04] Using device: cuda
+[02:23:04] Hard deadline: 05:20:00 (2.95 hours from now)
+[02:23:04] Real videos: 440 | Fake videos: 950
+[02:23:04] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:23:04] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:23:04] Using device: cuda
+[02:23:04] Hard deadline: 05:20:00 (2.95 hours from now)
+[02:23:04] Real videos: 440 | Fake videos: 950
+[02:23:04] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:23:04] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:28:52] Using device: cuda
+[02:28:52] Hard deadline: 05:20:00 (2.85 hours from now)
+[02:28:52] Using device: cuda
+[02:28:52] Hard deadline: 05:20:00 (2.85 hours from now)
+[02:28:52] Real videos: 440 | Fake videos: 950
+[02:28:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:28:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:28:52] Real videos: 440 | Fake videos: 950
+[02:28:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:28:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:28:52] Using device: cuda
+[02:28:52] Hard deadline: 05:20:00 (2.85 hours from now)
+[02:28:52] Real videos: 440 | Fake videos: 950
+[02:28:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:28:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:28:52] Using device: cuda
+[02:28:52] Hard deadline: 05:20:00 (2.85 hours from now)
+[02:28:52] Real videos: 440 | Fake videos: 950
+[02:28:52] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:28:52] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:30:04] [lstm] Epoch 7/8 | train_loss=0.1154 train_acc=0.9302 | val_loss=0.2929 val_acc=0.8702 | 427.6s
+[02:30:11] Using device: cuda
+[02:30:11] Hard deadline: 05:20:00 (2.83 hours from now)
+[02:30:11] Real videos: 440 | Fake videos: 950
+[02:30:11] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:30:11] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:30:11] Using device: cuda
+[02:30:11] Hard deadline: 05:20:00 (2.83 hours from now)
+[02:30:12] Real videos: 440 | Fake videos: 950
+[02:30:12] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:30:12] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:30:12] Using device: cuda
+[02:30:12] Hard deadline: 05:20:00 (2.83 hours from now)
+[02:30:12] Real videos: 440 | Fake videos: 950
+[02:30:12] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:30:12] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:30:12] Using device: cuda
+[02:30:12] Hard deadline: 05:20:00 (2.83 hours from now)
+[02:30:12] Real videos: 440 | Fake videos: 950
+[02:30:12] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:30:12] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:36:06] Using device: cuda
+[02:36:06] Hard deadline: 05:20:00 (2.73 hours from now)
+[02:36:06] Real videos: 440 | Fake videos: 950
+[02:36:06] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:36:06] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:36:06] Using device: cuda
+[02:36:06] Hard deadline: 05:20:00 (2.73 hours from now)
+[02:36:06] Real videos: 440 | Fake videos: 950
+[02:36:06] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:36:06] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:36:06] Using device: cuda
+[02:36:06] Hard deadline: 05:20:00 (2.73 hours from now)
+[02:36:07] Real videos: 440 | Fake videos: 950
+[02:36:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:36:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:36:07] Using device: cuda
+[02:36:07] Hard deadline: 05:20:00 (2.73 hours from now)
+[02:36:07] Real videos: 440 | Fake videos: 950
+[02:36:07] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:36:07] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:37:18] [lstm] Epoch 8/8 | train_loss=0.0955 train_acc=0.9394 | val_loss=0.3598 val_acc=0.8462 | 434.0s
+[02:37:18] [lstm] Best checkpoint: epoch 7
+[02:37:18] === Evaluating on test set ===
+[02:37:26] Using device: cuda
+[02:37:26] Hard deadline: 05:20:00 (2.71 hours from now)
+[02:37:26] Real videos: 440 | Fake videos: 950
+[02:37:26] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:37:26] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:37:26] Using device: cuda
+[02:37:26] Hard deadline: 05:20:00 (2.71 hours from now)
+[02:37:26] Real videos: 440 | Fake videos: 950
+[02:37:26] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:37:26] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:37:26] Using device: cuda
+[02:37:26] Hard deadline: 05:20:00 (2.71 hours from now)
+[02:37:26] Real videos: 440 | Fake videos: 950
+[02:37:26] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:37:26] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:37:26] Using device: cuda
+[02:37:26] Hard deadline: 05:20:00 (2.71 hours from now)
+[02:37:26] Real videos: 440 | Fake videos: 950
+[02:37:26] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:37:26] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:38:54] Using device: cuda
+[02:38:54] Hard deadline: 05:20:00 (2.68 hours from now)
+[02:38:54] Real videos: 440 | Fake videos: 950
+[02:38:54] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:38:54] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:38:54] Using device: cuda
+[02:38:54] Hard deadline: 05:20:00 (2.68 hours from now)
+[02:38:54] Real videos: 440 | Fake videos: 950
+[02:38:54] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:38:54] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:38:54] Using device: cuda
+[02:38:54] Hard deadline: 05:20:00 (2.68 hours from now)
+[02:38:54] Using device: cuda
+[02:38:54] Hard deadline: 05:20:00 (2.68 hours from now)
+[02:38:54] Real videos: 440 | Fake videos: 950
+[02:38:54] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:38:54] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:38:54] Real videos: 440 | Fake videos: 950
+[02:38:54] Train videos: 974 | Val videos: 208 | Test videos: 208
+[02:38:54] Train class counts -> real: 308, fake: 666 | POS_WEIGHT: 0.4625
+[02:40:13] Baseline metrics: {'model': 'CNN Baseline', 'accuracy': 0.9134615384615384, 'precision': 0.9133333333333333, 'recall': 0.9647887323943662, 'f1': 0.9383561643835616, 'roc_auc': 0.9505975245411864}
+[02:40:13] LSTM metrics: {'model': 'CNN + LSTM', 'accuracy': 0.8701923076923077, 'precision': 0.9020979020979021, 'recall': 0.9084507042253521, 'f1': 0.9052631578947369, 'roc_auc': 0.9357661118224498}
+[02:40:14] === DONE. Total runtime: 1.98 hours ===

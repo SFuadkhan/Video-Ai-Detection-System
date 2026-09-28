@@ -1,0 +1,13 @@
+# Versions used to produce the reported results (Python 3.14.3, Windows 11, CUDA 12.8).
+# For GPU support, install torch/torchvision from https://pytorch.org using the command
+# that matches your CUDA version, then install the rest of this file.
+torch==2.11.0
+torchvision==0.26.0
+opencv-python==5.0.0.93
+decord==0.6.0
+numpy==2.5.2
+scikit-learn==1.9.0
+matplotlib==3.11.1
+pillow==12.3.0
+tqdm==4.70.0
+ipykernel==7.3.0

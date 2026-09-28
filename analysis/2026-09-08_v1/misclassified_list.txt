@@ -1,0 +1,15 @@
+CNN+LSTM misclassified 13 / 59 test clips.
+
+ccfoszqabv.mp4 | true=real pred=fake prob_fake=0.883
+crezycjqyk.mp4 | true=real pred=fake prob_fake=0.880
+atkdltyyen.mp4 | true=real pred=fake prob_fake=0.919
+bxzakyopjf.mp4 | true=real pred=fake prob_fake=0.699
+cprhtltsjp.mp4 | true=real pred=fake prob_fake=0.936
+dakiztgtnw.mp4 | true=real pred=fake prob_fake=0.882
+bddjdhzfze.mp4 | true=real pred=fake prob_fake=0.877
+ckkuyewywx.mp4 | true=real pred=fake prob_fake=0.888
+ckjaibzfxa.mp4 | true=real pred=fake prob_fake=0.938
+bwipwzzxxu.mp4 | true=real pred=fake prob_fake=0.729
+aorjvbyxhw.mp4 | true=fake pred=real prob_fake=0.418
+apatcsqejh.mp4 | true=fake pred=real prob_fake=0.433
+ehfiekigla.mp4 | true=fake pred=real prob_fake=0.416
